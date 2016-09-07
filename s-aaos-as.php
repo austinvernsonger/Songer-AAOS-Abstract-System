@@ -1,17 +1,7 @@
-<?php
-
-/**
- * The plugin bootstrap file
- *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
- *
+<?php/**
  * @link              http://austinvernsonger.github.com
  * @since             1.0.0
  * @package           S_Aaos_As
- *
  * @wordpress-plugin
  * Plugin Name:       Songer AAOS Abstract System
  * Plugin URI:        https://github.com/austinvernsonger/Songer-AAOS-Abstract-System
@@ -25,13 +15,15 @@
  * Domain Path:       /languages
  */
 
-require_once '/includes/camptix/camptix.php';
-require_once '/includes/visual-form-builder/   ';
-require_once '/includes/wordpress-backup-to-dropbox/   ';
-require_once '/includes/wp-better-emails/   ';
-require_once '/includes/wp-members/   ';
-require_once '/includes/wp-user-frontend/   ';
-require_once '/includes/wysija-newsletter/   ';
+require_once 'includes/camptix/camptix.php';
+require_once 'includes/visual-form-builder/visual-form-builder.php';
+require_once 'includes/wordpress-backup-to-dropbox/wp-backup-to-dropbox.php';
+require_once 'includes/wp-better-emails/wpbe.php';
+require_once 'includes/wp-members/wp-members.php';
+require_once 'includes/wp-user-frontend/wpuf.php';
+require_once 'includes/songer-admin-theme/index.php   ';
+
+
 // require_once '/includes/   ';
 
 // If this file is called directly, abort.
@@ -81,4 +73,10 @@ function run_s_aaos_as() {
 	$plugin->run();
 
 }
+
+
+
+
+
+
 run_s_aaos_as();

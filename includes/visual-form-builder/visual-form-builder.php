@@ -1,13 +1,5 @@
 <?php
 /*
-Plugin Name: 	Visual Form Builder
-Plugin URI:		https://wordpress.org/plugins/visual-form-builder/
-Description: 	Dynamically build forms using a simple interface. Forms include jQuery validation, a basic logic-based verification system, and entry tracking.
-Version: 		2.9.1
-Author:			Matthew Muro
-Author URI: 	http://matthewmuro.com
-Text Domain: 	visual-form-builder
-Domain Path:	/languages/
 */
 
 // Version number to output as meta tag

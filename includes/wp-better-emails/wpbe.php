@@ -1,12 +1,6 @@
 <?php
 /*
-Plugin Name: WP Better Emails
-Plugin URI: http://wordpress.org/extend/plugins/wp-better-emails/
-Description: Beautify the default text/plain WP mails into fully customizable HTML emails.
-Version: 0.3
-Author: Nicolas Lemoine
-Author URI: http://wordpress.org/extend/plugins/wp-better-emails/
-License: GPLv2
+
  */
 
 /*

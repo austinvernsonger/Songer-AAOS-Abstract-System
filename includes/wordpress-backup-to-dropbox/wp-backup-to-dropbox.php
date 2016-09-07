@@ -1,25 +1,6 @@
 <?php
 /*
-Plugin Name: WordPress Backup to Dropbox
-Plugin URI: http://wpb2d.com
-Description: Keep your valuable WordPress website, its media and database backed up in Dropbox! Need help? Please email support@wpb2d.com
-Version: 4.5.3
-Author: Michael De Wildt
-Author URI: http://www.mikeyd.com.au
-License: Copyright 2011-2015 Awesoft Pty. Ltd. (email : michael.dewildt@gmail.com)
 
-        This program is free software; you can redistribute it and/or modify
-        it under the terms of the GNU General Public License, version 2, as
-        published by the Free Software Foundation.
-
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-        GNU General Public License for more details.
-
-        You should have received a copy of the GNU General Public License
-        along with this program; if not, write to the Free Software
-        Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 define('BACKUP_TO_DROPBOX_VERSION', '4.5.3');
 define('BACKUP_TO_DROPBOX_DATABASE_VERSION', '2');
